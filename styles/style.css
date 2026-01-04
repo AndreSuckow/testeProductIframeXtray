@@ -34,8 +34,8 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 200px;
+    width: 10rem;
+    height: 5rem;
     border-radius: 20px;
     background-color: #fff;
     box-shadow: 0 0 30px #00000040;
