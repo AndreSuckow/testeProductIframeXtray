@@ -11,8 +11,8 @@ span{
     margin-top: -30px;
     z-index: 9999999999;
     position: relative;
-    top: 1180px;
-    left: -150px;
+    top: 1345px;
+    left: 170px;
     display: inline-block;
     font-family: "Poppins", sans-serif;
 }
@@ -73,7 +73,7 @@ span{
     align-items: center;
     align-content: center;
     width: 100%;
-    height: 357px;
+    height: 460px;
     background-image: url(/assets/heroBio7.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -290,6 +290,7 @@ span{
     font-size: 1.19rem;
     font-weight: 300;
 }
+
 .laterais{
     display: flex;
     flex-direction: column;
@@ -357,6 +358,10 @@ span{
     height: 100%;
     width: 25%;
     /* background-color: #aeaeae; */
+}
+
+.dir .seloB {
+    width: 6.25rem;
 }
 .miniSlideTitulo{
     display: flex;
@@ -488,8 +493,20 @@ span{
         flex-direction: column;
         width: 100vw;
     }
+
+    .ballonBox1 {
+        top: 1458px;
+        left: -38px;
+    }
+
+    .ballonBox2 {
+        top: 2400px;
+        left: 0px;
+    }
+
     .tituloModoDeUso{
         justify-content: space-around;
+        flex-direction: column;
         max-width: 100vw;
     }
     .tituloModoDeUso h1{
@@ -632,6 +649,10 @@ span{
         font-size: 40px;
         margin-top: 0;
     }
+
+    .esq h1 {
+        margin-left: 0;
+    }
 }
 
 
@@ -654,4 +675,3 @@ span{
         max-width: 1500px;
     }
 }
-
