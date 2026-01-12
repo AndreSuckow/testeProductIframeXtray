@@ -12,7 +12,7 @@ span{
     z-index: 9999999999;
     position: relative;
     top: 1345px;
-    left: 170px;
+    left: 120px;
     display: inline-block;
     font-family: "Poppins", sans-serif;
 }
@@ -215,7 +215,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/topicos.png);
+    background-image: url(/assets/topicosOficial.png);
     background-size: cover;
     width: 45%;
     height: 100%;
@@ -272,6 +272,7 @@ span{
 }
 .aplicacoes p{
     padding: 0px 50px 0px 50px;
+    font-weight: 300;
 }
 .aplicacoes h1{
     font-family: "Caveat Brush", cursive;
